@@ -36,8 +36,8 @@ jobs:
       - name: GitHub Actions Build Maven project
         run: mvn clean test --file pom.xml
       
-      #- name: Copy Coverage To Predictable Location
-      #  run: cp coverage/**/coverage.cobertura.xml coverage.cobertura.xml
+      - name: Copy Coverage To Predictable Location
+        run: cp coverage/**/coverage.cobertura.xml coverage.cobertura.xml
       #  run: cp $dir/*/coverage.cobertura.xml coverage.cobertura.xml
       
       - name: Code Coverage Summary Report
