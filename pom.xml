@@ -38,7 +38,7 @@
 					<execution>
 						<phase>package</phase>
 						<goals>
-							<goal>cobertura</goal>
+							<goal>coverage-report</goal>
 						</goals>
 					</execution>
 				</executions>
